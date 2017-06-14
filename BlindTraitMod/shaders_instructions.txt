@@ -1,0 +1,37 @@
+--------------------------------------------------------------------------
+--                  INSTRUCTIONS CONCERNING SHADERS                     --
+--------------------------------------------------------------------------
+
+If you want to play with the best experience you will need to activate the shaders.
+
+--------------------------------------------------------------------------
+
+Follow these steps to activate shaders (when playing with a blind character) :
+
+1. Launch the game and make sure the mod is enabled
+2. Then quit the game
+3. Go to the mod folder :
+- If you are using steam workshop this should be :
+  your-steam-repository/steamapps/workshop/content/108600/546189296/mods/BlindTraitMod/media/
+- If you are not using steam workshop this should be :
+  your-user-repository/Zomboid/mods/BlindTraitMod/media/
+4. Rename the the "shaders-off" folder into "shaders"
+5. Launch the game and play a blind character (Don't forget to pick the trait !)
+
+--------------------------------------------------------------------------
+
+Follow these steps to activate shaders (when playing with a normal character) :
+
+1. Go to the mod folder :
+- If you are using steam workshop :
+  your-steam-repository/steamapps/workshop/content/108600/546189296/mods/BlindTraitMod/media/
+- If you are not using steam workshop :
+  your-user-repository/Zomboid/mods/BlindTraitMod/media/
+4. Rename the the "shaders" folder into "shaders-off"
+5. Launch the game and play a normal character without being anoyed by the shader
+
+--------------------------------------------------------------------------
+
+Sadly, shaders are considered as a base game modification.
+In order to play with it on a server, the server owner should authorise
+clients having diferent game files.
