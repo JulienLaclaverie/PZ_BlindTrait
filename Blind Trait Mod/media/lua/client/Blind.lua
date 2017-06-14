@@ -135,18 +135,6 @@ function setMouseBounds()
 	maxYvalue = screenY * 0.74;
 end
 
-function addBlindTrait()
-	local blindTraitforFactory = TraitFactory.addTrait("Blind", "Blind", -15, "Blind", false, false);
-	TraitFactory.setMutualExclusive("Blind", "EagleEyed");
-	TraitFactory.setMutualExclusive("Blind", "NightVision");
-	TraitFactory.setMutualExclusive("Blind", "KeenHearing");
-	TraitFactory.setMutualExclusive("Blind", "Illiterate");
-	TraitFactory.setMutualExclusive("Blind", "FastReader");
-	TraitFactory.setMutualExclusive("Blind", "SlowReader");
-	TraitFactory.setMutualExclusive("Blind", "HardOfHearing");
-	TraitFactory.setMutualExclusive("Blind", "Deaf");
-end
-
 function CharacterCreationProfession:initPlayer()
 
 	-- My code to add "passive" traits (perception and removing the reading ability) for blind characters
@@ -183,7 +171,6 @@ function CharacterCreationProfession:initPlayer()
 end
 
 Events.OnGameBoot.Add( setScreenSize );
-Events.OnGameBoot.Add( addBlindTrait );
 Events.OnGameBoot.Add( setMouseBounds );
 Events.OnGameBoot.Add( BlindMouseActions );
 Events.OnResolutionChange.Add( screenResizer );
