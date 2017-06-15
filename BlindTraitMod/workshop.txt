@@ -1,26 +1,28 @@
-version=1.1
-title=Blind Trait Mod
+version=1
+id=546189296
+title=Blind Trait Mod  - 1.2
+description=[Update 1.2] Should now work properly in multiplayer (though, if you want a blind player to have shaders you may need to disable lua checksum)
+description=
+description=The game features 5.1 sound, Vo-Ip, and a lot of ambiant sounds like zombies footsteps, etc... So I decided to give you the ability to play a blind character, to focus more on sounds.
+description=
+description=I also worked on a shader to inprove the blind character experience.
+description=
+description=Features :
+description=
+description=- You can pick a new trait that allows you to play a blind character (+16 malus)
+description=- The blind player has a really tiny "seeing" sight where you can see zombies even behind you
+description=- You can't de-zoom + everytime you look away the screen gets darker (keep your cursor close to your player while sneaking !)
+description=- You have excellent hearing
+description=- Use the new "Greyscale and shadows" shader for a better blind experience
+description=- Change the "Sight halo" to fit the new x2 textures
+description=
+description=HOW TO ACTIVATE THE SHADERS WHILE PLAYING A BLIND CHARACTER :
+description=
+description=Follow the instructions inside the "shaders_instructions.txt" file in the mod folder which should be located there :
+description=
+description=your-steam-repository/steamapps/workshop/content/108600/546189296/mods/BlindTraitMod/
+description=
+description=Workshop ID: 546189296
+description=Mod ID: 546189296
+tags=
 visibility=public
-description=[Update 1.1] Should now work properly in multiplayer (though, if you want a blind player to have shaders you may need to disable lua checksum)
-
-The game features 5.1 sound, Vo-Ip, and a lot of ambiant sounds like zombies footsteps, etc... So I decided to give you the ability to play a blind character, to focus more on sounds.
-
-I also worked on a shader to inprove the blind character experience.
-
-Features :
-
-- You can pick a new trait that allows you to play a blind character (+16 malus)
-- The blind player has a really tiny "seeing" sight where you can see zombies even behind you
-- You can't de-zoom + everytime you look away the screen gets darker (keep your cursor close to your player while sneaking !)
-- You have excellent hearing
-- Use the new "Greyscale and shadows" shader for a better blind experience
-- Change the "Sight halo" to fit the new x2 textures
-
-HOW TO ACTIVATE THE SHADERS WHILE PLAYING A BLIND CHARACTER :
-
-Follow the instructions inside the "shaders_instructions.txt" file in the mod folder which should be located there :
-
-your-steam-repository/steamapps/workshop/content/108600/546189296/mods/BlindTraitMod/
-
-Workshop ID: 546189296
-Mod ID: 546189296

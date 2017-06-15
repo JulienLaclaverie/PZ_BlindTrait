@@ -2,8 +2,9 @@
 --**           The Blind Trait Mod - By Onkeen             **
 --***********************************************************
 
-function addBlindTrait()
-	local blindTraitforFactory = TraitFactory.addTrait("Blind", "Blind", -18, "Blind", false, false);
+require('NPCs/MainCreationMethods');
+local function addBlindTrait()
+	TraitFactory.addTrait("Blind", "Blind", -18, "Blind", false, false);
 	TraitFactory.setMutualExclusive("Blind", "EagleEyed");
 	TraitFactory.setMutualExclusive("Blind", "NightVision");
 	TraitFactory.setMutualExclusive("Blind", "KeenHearing");
